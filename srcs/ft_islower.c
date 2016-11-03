@@ -1,21 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   libft.h                                            :+:      :+:    :+:   */
+/*   ft_islower.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/11/02 19:54:32 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/02 20:59:03 by Niko             ###   ########.fr       */
+/*   Created: 2016/11/02 20:59:45 by Niko              #+#    #+#             */
+/*   Updated: 2016/11/02 21:00:22 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LIBFT_H
-# define LIBFT_H
-# include <unistd.h>
+#include "../libft.h"
 
-void	ft_putchar(char c);
-void	ft_putstr(char const *s);
-int		ft_isupper(int c);
-int		ft_islower(int c);
-#endif
+int	ft_islower(int c)
+{
+	if (c >= 97 && c <= 122)
+		return (1);
+	return (0);
+}
