@@ -1,22 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   libft.h                                            :+:      :+:    :+:   */
+/*   ft_isalpha.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/11/02 19:54:32 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/02 21:05:21 by Niko             ###   ########.fr       */
+/*   Created: 2016/11/02 21:05:58 by Niko              #+#    #+#             */
+/*   Updated: 2016/11/02 21:06:32 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LIBFT_H
-# define LIBFT_H
-# include <unistd.h>
+#include "../libft.h"
 
-void	ft_putchar(char c);
-void	ft_putstr(char const *s);
-int		ft_isupper(int c);
-int		ft_islower(int c);
-int		ft_isalpha(int c);
-#endif
+int	ft_isalpha(int c)
+{
+	if(ft_isupper(c) || ft_islower(c))
+		return (1);
+	return (0);
+}

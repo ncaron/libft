@@ -6,7 +6,7 @@
 #    By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2016/11/02 19:51:00 by Niko              #+#    #+#              #
-#    Updated: 2016/11/02 20:59:21 by Niko             ###   ########.fr        #
+#    Updated: 2016/11/02 21:05:41 by Niko             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,12 +17,14 @@ FLAGS = -Wall -Wextra -Werror
 SRCS = srcs/ft_putchar.c \
 	   srcs/ft_putstr.c \
 	   srcs/ft_isupper.c \
-	   srcs/ft_islower.c
+	   srcs/ft_islower.c \
+	   srcs/ft_isalpha.c
 
 BIN = ft_putchar.o \
 	  ft_putstr.o \
 	  ft_isupper.o \
-	  ft_islower.o
+	  ft_islower.o \
+	  ft_isalpha.o
 
 INCLUDES = libft.h
 
