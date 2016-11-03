@@ -19,3 +19,4 @@ Allowed functions for this project are: write, malloc and free.
 * ft_tolower.c
 * ft_strcmp.c
 * ft_strncmp.c
+* ft_strlen.c
