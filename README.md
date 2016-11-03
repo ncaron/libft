@@ -14,3 +14,4 @@ Allowed functions for this project are: write, malloc and free.
 * ft_isdigit.c
 * ft_isalnum.c
 * ft_isascii.c
+* ft_isprint.c
