@@ -6,7 +6,7 @@
 #    By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2016/11/02 19:51:00 by Niko              #+#    #+#              #
-#    Updated: 2016/11/02 20:43:19 by Niko             ###   ########.fr        #
+#    Updated: 2016/11/02 20:45:30 by Niko             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,9 +14,11 @@ NAME = libft.a
 
 FLAGS = -Wall -Wextra -Werror
 
-SRCS = srcs/ft_putchar.c
+SRCS = srcs/ft_putchar.c \
+	   srcs/ft_putstr.c
 
-BIN = ft_putchar.o
+BIN = ft_putchar.o \
+	  ft_putstr.o
 
 INCLUDES = libft.h
 
