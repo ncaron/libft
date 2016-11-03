@@ -6,3 +6,4 @@ The goal of this project is to recreate a library of popular functions in C that
 Allowed functions for this project are: write, malloc and free.
 
 ## Functions in this library.
+* ft_putchar.c
