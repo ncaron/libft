@@ -1,28 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   libft.h                                            :+:      :+:    :+:   */
+/*   ft_tolower.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/11/02 19:54:32 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/02 21:45:16 by Niko             ###   ########.fr       */
+/*   Created: 2016/11/02 21:45:38 by Niko              #+#    #+#             */
+/*   Updated: 2016/11/02 21:46:14 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LIBFT_H
-# define LIBFT_H
-# include <unistd.h>
+#include "../libft.h"
 
-void	ft_putchar(char c);
-void	ft_putstr(char const *s);
-int		ft_isupper(int c);
-int		ft_islower(int c);
-int		ft_isalpha(int c);
-int		ft_isdigit(int c);
-int		ft_isalnum(int c);
-int		ft_isascii(int c);
-int		ft_isprint(int c);
-int		ft_toupper(int c);
-int		ft_tolower(int c);
-#endif
+int	ft_tolower(int c)
+{
+	if (ft_isupper(c))
+		return (c + 32);
+	return (c);
+}
