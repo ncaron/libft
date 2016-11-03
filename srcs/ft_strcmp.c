@@ -1,30 +1,33 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   libft.h                                            :+:      :+:    :+:   */
+/*   ft_strcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/11/02 19:54:32 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/02 22:41:34 by Niko             ###   ########.fr       */
+/*   Created: 2016/11/02 22:37:16 by Niko              #+#    #+#             */
+/*   Updated: 2016/11/02 22:39:55 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LIBFT_H
-# define LIBFT_H
-# include <unistd.h>
-# include <string.h>
+#include "../libft.h"
 
-void	ft_putchar(char c);
-void	ft_putstr(char const *s);
-int		ft_isupper(int c);
-int		ft_islower(int c);
-int		ft_isalpha(int c);
-int		ft_isdigit(int c);
-int		ft_isalnum(int c);
-int		ft_isascii(int c);
-int		ft_isprint(int c);
-int		ft_toupper(int c);
-int		ft_tolower(int c);
-int		ft_strcmp(const char *s1, const char *s2);
-#endif
+int	ft_strcmp(const char *s1, const char *s2)
+{
+	int				i;
+	unsigned char	c1;
+	unsigned char	c2;
+
+	i = 0;
+	if (!s1[i] || !s2[i])
+		return ((unsigned char)s1[i] - (unsigned char)s2[i]);
+	while (s1[i] && s2[i])
+	{
+		c1 = (unsigned char)s1[i];
+		c2 = (unsigned char)s2[i];
+		if (c1 < c2 || c1 > c2)
+			return (c1 - c2);
+		i++;
+	}
+	return (0);
+}

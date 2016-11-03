@@ -17,3 +17,4 @@ Allowed functions for this project are: write, malloc and free.
 * ft_isprint.c
 * ft_toupper.c
 * ft_tolower.c
+* ft_strcmp.c
