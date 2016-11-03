@@ -8,3 +8,4 @@ Allowed functions for this project are: write, malloc and free.
 ## Functions in this library.
 * ft_putchar.c
 * ft_putstr.c
+* ft_isupper.c
