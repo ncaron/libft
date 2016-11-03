@@ -6,7 +6,7 @@
 #    By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2016/11/02 19:51:00 by Niko              #+#    #+#              #
-#    Updated: 2016/11/02 23:42:34 by Niko             ###   ########.fr        #
+#    Updated: 2016/11/03 00:37:24 by Niko             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -28,7 +28,8 @@ SRCS = srcs/ft_putchar.c \
 	   srcs/ft_strcmp.c \
 	   srcs/ft_strncmp.c \
 	   srcs/ft_strlen.c \
-	   srcs/ft_strcat.c
+	   srcs/ft_strcat.c \
+	   srcs/ft_strncat.c
 
 BIN = ft_putchar.o \
 	  ft_putstr.o \
@@ -44,7 +45,8 @@ BIN = ft_putchar.o \
 	  ft_strcmp.o \
 	  ft_strncmp.o \
 	  ft_strlen.o \
-	  ft_strcat.o
+	  ft_strcat.o \
+	  ft_strncat.o
 
 INCLUDES = libft.h
 
