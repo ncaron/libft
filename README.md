@@ -33,3 +33,4 @@ Allowed functions for this project are: write, malloc and free.
 * ft_atoi.c
 * ft_memchr.c
 * ft_strclr.c
+* ft_striter.c
