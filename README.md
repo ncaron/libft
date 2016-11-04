@@ -24,3 +24,4 @@ Allowed functions for this project are: write, malloc and free.
 * ft_strncat.c
 * ft_strcpy.c
 * ft_strncpy.c
+* ft_stralloc.c
