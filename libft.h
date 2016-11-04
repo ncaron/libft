@@ -6,7 +6,7 @@
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/02 19:54:32 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/03 19:28:18 by Niko             ###   ########.fr       */
+/*   Updated: 2016/11/03 19:51:33 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,7 @@
 
 void	ft_putchar(char c);
 void	ft_putstr(char const *s);
+void	ft_bzero(void *s, size_t n);
 void	*ft_memset(void *b, int c, size_t len);
 int		ft_isupper(int c);
 int		ft_islower(int c);
