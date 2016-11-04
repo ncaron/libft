@@ -6,7 +6,7 @@
 #    By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2016/11/02 19:51:00 by Niko              #+#    #+#              #
-#    Updated: 2016/11/04 16:29:12 by Niko             ###   ########.fr        #
+#    Updated: 2016/11/04 16:34:21 by Niko             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -41,7 +41,8 @@ SRCS = srcs/ft_putchar.c \
 	   srcs/ft_atoi.c \
 	   srcs/ft_memchr.c \
 	   srcs/ft_strclr.c \
-	   srcs/ft_striter.c
+	   srcs/ft_striter.c \
+	   srcs/ft_striteri.c
 
 BIN = ft_putchar.o \
 	  ft_putstr.o \
@@ -70,7 +71,8 @@ BIN = ft_putchar.o \
 	  ft_atoi.o \
 	  ft_memchr.o \
 	  ft_strclr.o \
-	  ft_striter.o
+	  ft_striter.o \
+	  ft_striteri.o
 
 INCLUDES = libft.h
 
