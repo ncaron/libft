@@ -30,3 +30,4 @@ Allowed functions for this project are: write, malloc and free.
 * ft_memcpy.c
 * ft_memccpy.c
 * ft_isspace.c
+* ft_atoi.c
