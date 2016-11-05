@@ -46,3 +46,4 @@ Allowed functions for this project are: write, malloc and free.
 * ft_memdel.c
 * ft_strnew.c
 * ft_strdel.c
+* ft_strmap.c
