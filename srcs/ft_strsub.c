@@ -1,34 +1,32 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strmap.c                                        :+:      :+:    :+:   */
+/*   ft_strsub.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/11/04 16:53:30 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/05 02:31:02 by Niko             ###   ########.fr       */
+/*   Created: 2016/11/05 01:53:29 by Niko              #+#    #+#             */
+/*   Updated: 2016/11/05 13:23:08 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../libft.h"
 
-char	*ft_strmap(char const *s, char (*f)(char))
+char	*ft_strsub(const char *s, unsigned int start, size_t len)
 {
 	char	*s2;
 	int		i;
+	int		j;
 
-	if (!s)
+	i = start;
+	j = 0;
+	if (!s || ft_strlen(s) < start + len)
 		return (NULL);
-	s2 = (char*)malloc(sizeof(char) * (ft_strlen(s) + 1));
-	i = 0;
+	s2 = (char*)malloc(sizeof(char) * (len + 1));
 	if (s2)
 	{
-		while (s[i])
-		{
-			s2[i] = f(s[i]);
-			i++;
-		}
-		s2[i] = '\0';
+		ft_strncpy(s2, &s[start], len);
+		s2[len] = '\0';
 		return (s2);
 	}
 	return (NULL);
