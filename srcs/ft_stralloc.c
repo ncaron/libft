@@ -6,13 +6,13 @@
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/03 16:25:25 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/04 23:12:05 by Niko             ###   ########.fr       */
+/*   Updated: 2016/11/05 13:27:25 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../libft.h"
 
-char	*ft_stralloc(const char *s)
+char	*ft_stralloc(size_t len)
 {
-	return ((char*)malloc(sizeof(char) * (ft_strlen(s) + 1)));
+	return ((char*)malloc(sizeof(char) * len + 1));
 }
