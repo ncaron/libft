@@ -50,3 +50,4 @@ Allowed functions for this project are: write, malloc and free.
 * ft_strmapi.c
 * ft_strsub.c
 * ft_strjoin.c
+* ft_strtrim.c
