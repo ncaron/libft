@@ -7,8 +7,9 @@ Allowed functions for this project are: write, malloc and free.
 
 ## Functions in this library.
 * ft_putchar.c
-* ft_putstr.c
 * ft_putchar_fd.c
+* ft_putstr.c
+* ft_putstr_fd.c
 * ft_putendl.c
 * ft_isupper.c
 * ft_islower.c
