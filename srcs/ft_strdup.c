@@ -1,18 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_stralloc.c                                      :+:      :+:    :+:   */
+/*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/11/03 16:25:25 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/04 23:12:05 by Niko             ###   ########.fr       */
+/*   Created: 2016/11/04 23:07:40 by Niko              #+#    #+#             */
+/*   Updated: 2016/11/04 23:32:28 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../libft.h"
 
-char	*ft_stralloc(const char *s)
+char	*ft_strdup(const char *s1)
 {
-	return ((char*)malloc(sizeof(char) * (ft_strlen(s) + 1)));
+	char *s2;
+
+	s2 = ft_stralloc(s1);
+	if (s2)
+		s2 = ft_strcpy(s2, s1);
+	return (s2);
 }
