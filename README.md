@@ -39,3 +39,4 @@ Allowed functions for this project are: write, malloc and free.
 * ft_strclr.c
 * ft_striter.c
 * ft_striteri.c
+* ft_strchr.c
