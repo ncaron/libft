@@ -6,7 +6,7 @@
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/02 19:54:32 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/04 23:07:28 by Niko             ###   ########.fr       */
+/*   Updated: 2016/11/05 00:02:02 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,6 +30,7 @@ void	*ft_memset(void *b, int c, size_t len);
 void	*ft_memcpy(void *dst, const void *src, size_t n);
 void	*ft_memccpy(void *dst, const void *src, int c, size_t n);
 void	*ft_memchr(const void *s, int c, size_t n);
+void	*ft_memalloc(size_t size);
 int		ft_isupper(int c);
 int		ft_islower(int c);
 int		ft_isalpha(int c);

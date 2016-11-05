@@ -42,3 +42,4 @@ Allowed functions for this project are: write, malloc and free.
 * ft_strchr.c
 * ft_strrchr.c
 * ft_strdup.c
+* ft_memalloc.c
