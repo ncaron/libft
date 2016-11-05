@@ -11,6 +11,7 @@ Allowed functions for this project are: write, malloc and free.
 * ft_putstr.c
 * ft_putstr_fd.c
 * ft_putendl.c
+* ft_putendl_fd.c
 * ft_isupper.c
 * ft_islower.c
 * ft_isalpha.c
