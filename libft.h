@@ -6,7 +6,7 @@
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/02 19:54:32 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/04 20:22:18 by Niko             ###   ########.fr       */
+/*   Updated: 2016/11/04 20:29:09 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@
 # include <stdlib.h>
 
 void	ft_putchar(char c);
+void	ft_putchar_fd(char c, int fd);
 void	ft_putstr(char const *s);
 void	ft_putendl(char const *s);
 void	ft_bzero(void *s, size_t n);
