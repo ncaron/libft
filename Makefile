@@ -6,7 +6,7 @@
 #    By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2016/11/02 19:51:00 by Niko              #+#    #+#              #
-#    Updated: 2016/11/05 20:06:45 by Niko             ###   ########.fr        #
+#    Updated: 2016/11/05 20:13:08 by Niko             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,6 +20,8 @@ SRCS = srcs/ft_putchar.c \
 	   srcs/ft_putstr_fd.c \
 	   srcs/ft_putendl.c \
 	   srcs/ft_putendl_fd.c \
+	   srcs/ft_putnbr.c \
+	   srcs/ft_putnbr_fd.c \
 	   srcs/ft_isupper.c \
 	   srcs/ft_islower.c \
 	   srcs/ft_isalpha.c \
@@ -59,8 +61,7 @@ SRCS = srcs/ft_putchar.c \
 	   srcs/ft_strsub.c \
 	   srcs/ft_strjoin.c \
 	   srcs/ft_strtrim.c \
-	   srcs/ft_itoa.c \
-	   srcs/ft_putnbr.c
+	   srcs/ft_itoa.c
 
 BIN = ft_putchar.o \
 	  ft_putchar_fd.o \
@@ -68,6 +69,8 @@ BIN = ft_putchar.o \
 	  ft_putstr_fd.o \
 	  ft_putendl.o \
 	  ft_putendl_fd.o \
+	  ft_putnbr.o \
+	  ft_putnbr_fd.o \
 	  ft_isupper.o \
 	  ft_islower.o \
 	  ft_isalpha.o \
@@ -107,8 +110,7 @@ BIN = ft_putchar.o \
 	  ft_strsub.o \
 	  ft_strjoin.o \
 	  ft_strtrim.o \
-	  ft_itoa.o \
-	  ft_putnbr.o
+	  ft_itoa.o
 
 INCLUDES = libft.h
 
