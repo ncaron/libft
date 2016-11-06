@@ -56,3 +56,4 @@ Allowed functions for this project are: write, malloc and free.
 * ft_itoa.c
 * ft_strequ.c
 * ft_strnequ.c
+* ft_strstr.c
