@@ -65,3 +65,4 @@ Allowed functions for this project are: write, malloc and free.
 * ft_lstnew.c
 * ft_lstdelone.c
 * ft_lstdel.c
+* ft_lstadd.c
