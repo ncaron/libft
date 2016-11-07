@@ -1,33 +1,35 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlcat.c                                       :+:      :+:    :+:   */
+/*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/11/06 13:01:52 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/06 15:42:54 by Niko             ###   ########.fr       */
+/*   Created: 2016/11/05 21:40:38 by Niko              #+#    #+#             */
+/*   Updated: 2016/11/06 16:17:55 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../libft.h"
 
-size_t	ft_strlcat(char *dst, const char *src, size_t size)
+void	*ft_memmove(void *dst, const void *src, size_t len)
 {
-	size_t i;
-	size_t dst_len;
-	size_t src_len;
+	size_t	i;
+	char	*sdst;
+	char	*ssrc;
 
+	sdst = (char*)dst;
+	ssrc = (char*)src;
 	i = 0;
-	dst_len = ft_strlen(dst);
-	src_len = ft_strlen(src);
-	if (size < dst_len)
-		return (size + src_len);
-	while (src[i] && i < (size - dst_len - 1))
+	if (ssrc <= sdst && ssrc + len > sdst)
 	{
-		dst[dst_len + i] = src[i];
-		i++;
+		i = len;
+		while (i > 0)
+		{
+			sdst[i - 1] = ssrc[i - 1];
+			i--;
+		}
+		return (sdst);
 	}
-	dst[dst_len + i] = '\0';
-	return (dst_len + src_len);
+	return (ft_memcpy(dst, src, len));
 }
