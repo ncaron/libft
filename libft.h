@@ -6,7 +6,7 @@
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/02 19:54:32 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/06 16:23:17 by Niko             ###   ########.fr       */
+/*   Updated: 2016/11/07 13:19:40 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,13 @@
 # include <string.h>
 # include <stdlib.h>
 
+typedef struct		s_list
+{
+	void			*content;
+	size_t			*content_size;
+	struct s_list	*next;
+}					t_list;
+t_list	*ft_lstnew(void const *content, size_t content_size);
 void	ft_putchar(char c);
 void	ft_putchar_fd(char c, int fd);
 void	ft_putstr(char const *s);
