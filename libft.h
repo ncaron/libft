@@ -6,7 +6,7 @@
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/02 19:54:32 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/07 15:14:40 by Niko             ###   ########.fr       */
+/*   Updated: 2016/11/07 15:24:38 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,6 +38,7 @@ void				ft_striteri(char *s, void (*f)(unsigned int, char *));
 void				ft_memdel(void **ap);
 void				ft_strdel(char **as);
 void				ft_lstdelone(t_list **alst, void(*del)(void *, size_t));
+void				ft_lstdel(t_list **alst, void(*del)(void *, size_t));
 void				*ft_memset(void *b, int c, size_t len);
 void				*ft_memcpy(void *dst, const void *src, size_t n);
 void				*ft_memccpy(void *dst, const void *src, int c, size_t n);
