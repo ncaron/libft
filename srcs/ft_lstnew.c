@@ -6,7 +6,7 @@
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/07 13:01:29 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/07 13:33:10 by Niko             ###   ########.fr       */
+/*   Updated: 2016/11/07 15:18:03 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ t_list	*ft_lstnew(void const *content, size_t content_size)
 			free(list->content);
 		else
 			ft_memcpy(list->content, content, content_size);
-		list->content_size = &content_size;
+		list->content_size = content_size;
 	}
 	list->next = NULL;
 	return (list);
