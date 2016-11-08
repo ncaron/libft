@@ -6,7 +6,7 @@
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/03 20:05:17 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/03 20:14:25 by Niko             ###   ########.fr       */
+/*   Updated: 2016/11/07 20:11:28 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,17 +14,12 @@
 
 void	*ft_memcpy(void *dst, const void *src, size_t n)
 {
-	size_t	i;
 	char	*sdst;
 	char	*ssrc;
 
 	sdst = (char*)dst;
 	ssrc = (char*)src;
-	i = 0;
-	while (i < n)
-	{
-		sdst[i] = ssrc[i];
-		i++;
-	}
+	while (n--)
+		*sdst++ = *ssrc++;
 	return (dst);
 }

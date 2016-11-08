@@ -6,7 +6,7 @@
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/05 01:42:48 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/05 01:46:01 by Niko             ###   ########.fr       */
+/*   Updated: 2016/11/07 20:50:45 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 
 	if (!s)
 		return (NULL);
-	s2 = (char*)malloc(sizeof(char) * (ft_strlen(s) + 1));
+	s2 = ft_stralloc(ft_strlen(s));
 	i = 0;
 	if (s2)
 	{

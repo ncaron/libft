@@ -6,7 +6,7 @@
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/02 23:42:45 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/02 23:44:21 by Niko             ###   ########.fr       */
+/*   Updated: 2016/11/07 20:00:15 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,19 +14,11 @@
 
 char	*ft_strcat(char *s1, const char *s2)
 {
-	int i;
-	int j;
+	char *s3;
 
-	i = 0;
-	j = 0;
-	while (s1[i])
-		i++;
-	while (s2[j])
-	{
-		s1[i] = s2[j];
-		i++;
-		j++;
-	}
-	s1[i] = '\0';
-	return (s1);
+	s3 = s1;
+	while (*s1)
+		s1++;
+	ft_strcpy(s1, s2);
+	return (s3);
 }
