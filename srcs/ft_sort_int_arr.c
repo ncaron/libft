@@ -6,9 +6,11 @@
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/07 20:59:52 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/07 21:02:57 by Niko             ###   ########.fr       */
+/*   Updated: 2016/11/07 21:15:06 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "../libft.h"
 
 void	ft_sort_int_arr(int *arr, size_t size)
 {
