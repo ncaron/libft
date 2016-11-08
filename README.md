@@ -68,3 +68,4 @@ Allowed functions for this project are: write, malloc and free.
 * ft_lstadd.c
 * ft_lstiter.c
 * ft_lstmap.c
+* ft_sort_int_arr.c
