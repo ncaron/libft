@@ -6,7 +6,7 @@
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/02 22:37:16 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/07 20:19:50 by Niko             ###   ########.fr       */
+/*   Updated: 2016/11/09 02:09:26 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,14 +14,16 @@
 
 int	ft_strcmp(const char *s1, const char *s2)
 {
-	int				i;
+	size_t			i;
+	size_t			s1_len;
+	size_t			s2_len;
 	unsigned char	c1;
 	unsigned char	c2;
 
+	s1_len = ft_strlen(s1);
+	s2_len = ft_strlen(s2);
 	i = 0;
-	if (!s1[i] || !s2[i])
-		return ((unsigned char)s1[i] - (unsigned char)s2[i]);
-	while (s1[i] && s2[i])
+	while (i <= s1_len && i <= s2_len)
 	{
 		c1 = (unsigned char)s1[i];
 		c2 = (unsigned char)s2[i];
