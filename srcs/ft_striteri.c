@@ -6,7 +6,7 @@
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/04 16:35:11 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/04 23:56:42 by Niko             ###   ########.fr       */
+/*   Updated: 2016/11/09 03:52:02 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 	int i;
 
 	i = 0;
-	if (s)
+	if (s && f)
 	{
 		while (s[i])
 		{
