@@ -6,7 +6,7 @@
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/04 23:07:40 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/05 13:28:30 by Niko             ###   ########.fr       */
+/*   Updated: 2016/11/09 20:11:47 by ncaron           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ char	*ft_strdup(const char *s1)
 {
 	char *s2;
 
-	s2 = ft_stralloc(ft_strlen(s1));
+	s2 = ft_strnew(ft_strlen(s1));
 	if (s2)
 		s2 = ft_strcpy(s2, s1);
 	return (s2);

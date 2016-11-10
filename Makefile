@@ -6,7 +6,7 @@
 #    By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2016/11/02 19:51:00 by Niko              #+#    #+#              #
-#    Updated: 2016/11/07 21:04:49 by Niko             ###   ########.fr        #
+#    Updated: 2016/11/09 20:11:09 by ncaron           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -39,7 +39,6 @@ SRCS = srcs/ft_putchar.c \
 	   srcs/ft_strlcat.c \
 	   srcs/ft_strcpy.c \
 	   srcs/ft_strncpy.c \
-	   srcs/ft_stralloc.c \
 	   srcs/ft_memset.c \
 	   srcs/ft_bzero.c \
 	   srcs/ft_memcpy.c \
@@ -103,7 +102,6 @@ BIN = ft_putchar.o \
 	  ft_strlcat.o \
 	  ft_strcpy.o \
 	  ft_strncpy.o \
-	  ft_stralloc.o \
 	  ft_memset.o \
 	  ft_bzero.o \
 	  ft_memcpy.o \

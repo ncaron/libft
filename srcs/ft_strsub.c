@@ -6,7 +6,7 @@
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/05 01:53:29 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/09 03:11:07 by Niko             ###   ########.fr       */
+/*   Updated: 2016/11/09 20:13:21 by ncaron           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ char	*ft_strsub(const char *s, unsigned int start, size_t len)
 	j = 0;
 	if (!s || ft_strlen(s) < start + len)
 		return (NULL);
-	s2 = ft_stralloc(len);
+	s2 = ft_strnew(len);
 	if (s2)
 	{
 		ft_strncpy(s2, &s[start], len);

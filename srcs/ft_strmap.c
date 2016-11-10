@@ -6,7 +6,7 @@
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/04 16:53:30 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/07 20:46:14 by Niko             ###   ########.fr       */
+/*   Updated: 2016/11/09 20:12:51 by ncaron           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ char	*ft_strmap(char const *s, char (*f)(char))
 
 	if (!s)
 		return (NULL);
-	s2 = ft_stralloc(ft_strlen(s));
+	s2 = ft_strnew(ft_strlen(s));
 	i = 0;
 	if (s2)
 	{

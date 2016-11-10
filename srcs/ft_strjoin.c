@@ -6,7 +6,7 @@
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/05 13:50:08 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/05 14:08:13 by Niko             ###   ########.fr       */
+/*   Updated: 2016/11/09 20:13:40 by ncaron           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ char	*ft_strjoin(char const *s1, char const *s2)
 		return (NULL);
 	len1 = ft_strlen(s1);
 	len2 = ft_strlen(s2);
-	s3 = ft_stralloc(len1 + len2);
+	s3 = ft_strnew(len1 + len2);
 	i = 0;
 	if (s3)
 	{
