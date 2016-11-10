@@ -6,7 +6,7 @@
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/04 11:26:34 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/06 22:23:34 by Niko             ###   ########.fr       */
+/*   Updated: 2016/11/09 16:20:35 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,12 +21,13 @@ void	*ft_memccpy(void *dst, const void *src, int c, size_t n)
 	sdst = (unsigned char*)dst;
 	ssrc = (unsigned char*)src;
 	i = 0;
-	while (ssrc[i] && i < n)
+	while (n && *ssrc != (unsigned char)c)
 	{
-		sdst[i] = ssrc[i];
-		if (ssrc[i] == (unsigned char)c)
-			return (&sdst[i + 1]);
-		i++;
+		*sdst++ = *ssrc++;
+		n--;
 	}
-	return (NULL);
+	if (n == 0)
+		return (NULL);
+	*sdst++ = *ssrc++;
+	return (sdst);
 }
