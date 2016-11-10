@@ -6,7 +6,7 @@
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/05 16:11:39 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/07 20:56:14 by Niko             ###   ########.fr       */
+/*   Updated: 2016/11/09 17:09:34 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ static int	ft_wlen(char const *s, char c)
 	int len;
 
 	len = 0;
-	while (s[len] != c)
+	while (s[len] && s[len] != c)
 		len++;
 	return (len);
 }
@@ -45,20 +45,20 @@ char		**ft_strsplit(char const *s, char c)
 {
 	char	**wordarr;
 	int		wcount;
+	int		empty;
 	int		i;
 	int		j;
-	int		len;
 
 	i = 0;
 	j = 0;
-	len = 0;
 	if (!s)
 		return (NULL);
+	empty = ft_strcmp(s, "");
 	wcount = ft_wcount(s, c);
 	wordarr = (char**)malloc(sizeof(char*) * (wcount + 1));
 	if (!wordarr)
 		return (NULL);
-	while (i < wcount)
+	while (i < wcount && empty != 0)
 	{
 		while (s[j] == c)
 			j++;
