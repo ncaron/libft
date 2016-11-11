@@ -6,9 +6,15 @@
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/04 15:25:36 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/07 20:49:47 by Niko             ###   ########.fr       */
+/*   Updated: 2016/11/10 16:29:19 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Compares byte string s1 and s1. Both strings are n bytes long.
+** Returns 0 if the srings are identical.
+** Returns the difference of the first different byte.
+*/
 
 #include "../libft.h"
 
