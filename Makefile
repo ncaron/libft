@@ -6,7 +6,7 @@
 #    By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2016/11/02 19:51:00 by Niko              #+#    #+#              #
-#    Updated: 2016/11/09 22:38:36 by Niko             ###   ########.fr        #
+#    Updated: 2016/11/10 20:03:23 by ncaron           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -147,15 +147,15 @@ INCLUDES = libft.h
 all: $(NAME)
 
 $(NAME):
-	gcc -c $(FLAGS) $(SRCS) $(INCLUDES)
-	ar rc $(NAME) $(BIN)
+	@gcc -c $(FLAGS) $(SRCS) $(INCLUDES)
+	@ar rc $(NAME) $(BIN)
 
 clean:
-	rm -f $(BIN)
-	rm -f libft.h.gch
+	@rm -f $(BIN)
+	@rm -f libft.h.gch
 
 fclean: clean
-	rm -f $(NAME)
+	@rm -f $(NAME)
 
 re: fclean all
 
