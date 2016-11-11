@@ -6,9 +6,14 @@
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/05 20:54:24 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/05 20:57:50 by Niko             ###   ########.fr       */
+/*   Updated: 2016/11/10 14:48:31 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Lexicographically compares s1 and s2.
+** Returns 1 if they are identical, or 0 if they are not.
+*/
 
 #include "../libft.h"
 

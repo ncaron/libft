@@ -6,9 +6,14 @@
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/05 16:11:39 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/09 17:09:34 by Niko             ###   ########.fr       */
+/*   Updated: 2016/11/10 16:03:52 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Allocates and returns an array of string using c and a delimiter.
+** Returns the array of strings,
+*/
 
 #include "../libft.h"
 

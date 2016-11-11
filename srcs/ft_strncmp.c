@@ -6,9 +6,16 @@
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/02 22:53:23 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/08 14:58:44 by Niko             ###   ########.fr       */
+/*   Updated: 2016/11/10 14:29:13 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Lexicographically compares the strings s1 and s2.
+** Not more than n characters are compared.
+** Returns an int, the difference of the first characters that don't match.
+** Returns 0 of the strings are the same.
+*/
 
 #include "../libft.h"
 

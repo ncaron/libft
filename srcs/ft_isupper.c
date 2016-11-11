@@ -6,9 +6,14 @@
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/02 20:53:14 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/02 20:53:48 by Niko             ###   ########.fr       */
+/*   Updated: 2016/11/10 16:24:03 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Returns 1 if c is uppercase.
+** Returns 0 if c is not uppercase.
+*/
 
 #include "../libft.h"
 

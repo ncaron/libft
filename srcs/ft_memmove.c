@@ -6,9 +6,15 @@
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/05 21:40:38 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/07 20:21:04 by Niko             ###   ########.fr       */
+/*   Updated: 2016/11/10 14:03:07 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Copies len bytes from src to dst.
+** The two strings may overlap but copy is done in a non-destructive manner.
+** Returns the original value of dst.
+*/
 
 #include "../libft.h"
 

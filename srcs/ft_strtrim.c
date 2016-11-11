@@ -6,9 +6,14 @@
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/05 14:10:43 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/05 15:53:37 by Niko             ###   ########.fr       */
+/*   Updated: 2016/11/10 16:02:52 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Allocates and returns a copy of s with no leading and trailing whitespace.
+** If allocation fails, returns NULL.
+*/
 
 #include "../libft.h"
 

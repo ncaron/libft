@@ -6,9 +6,19 @@
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/07 13:01:29 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/07 15:18:03 by Niko             ###   ########.fr       */
+/*   Updated: 2016/11/10 16:10:54 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Allocates and returns a new link.
+** Content and content_size are initialized by copy of the parameters.
+** If content is nul, the variable content is initialized to NULL and
+** the variable content_size is initialized to 0.
+** The variable next is initialized to NULL.
+** Returns the new link.
+** If allocation fails, returns NULL.
+*/
 
 #include "../libft.h"
 

@@ -6,9 +6,14 @@
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/02 21:37:21 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/02 21:37:55 by Niko             ###   ########.fr       */
+/*   Updated: 2016/11/10 14:34:53 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Returns 1 if c is a printable character.
+** Returns 0 if c is not a printable character.
+*/
 
 #include "../libft.h"
 

@@ -6,9 +6,13 @@
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/07 15:25:27 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/07 15:41:37 by Niko             ###   ########.fr       */
+/*   Updated: 2016/11/10 16:21:17 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Frees the memory and every successor of that link using del and free.
+*/
 
 #include "../libft.h"
 

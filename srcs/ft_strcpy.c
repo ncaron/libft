@@ -6,9 +6,15 @@
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/03 14:40:06 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/03 14:43:00 by Niko             ###   ########.fr       */
+/*   Updated: 2016/11/10 14:08:21 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Copies to string src to dst including the terminating character.
+** Undefined behavior if the strings overlap.
+** Returns dst.
+*/
 
 #include "../libft.h"
 

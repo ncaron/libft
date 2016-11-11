@@ -6,9 +6,14 @@
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/03 19:28:28 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/06 22:25:52 by Niko             ###   ########.fr       */
+/*   Updated: 2016/11/10 13:55:48 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Writes len bytes of value c (converted to an unsigned char) to the string b.
+** Returns its first argument.
+*/
 
 #include "../libft.h"
 

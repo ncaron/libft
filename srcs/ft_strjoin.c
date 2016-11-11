@@ -6,9 +6,16 @@
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/05 13:50:08 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/09 20:13:40 by ncaron           ###   ########.fr       */
+/*   Updated: 2016/11/10 14:52:16 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Allocates and retuns a new string ending with a terminating character.
+** The string is the result of concatenating s1 and s2.
+** If allocation fails, returns NULL.
+** Returns the new string.
+*/
 
 #include "../libft.h"
 

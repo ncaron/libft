@@ -6,9 +6,14 @@
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/04 15:00:58 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/09 13:41:38 by Niko             ###   ########.fr       */
+/*   Updated: 2016/11/10 14:04:18 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Locates the first occurence of c (converted to an unsigned char) in s.
+** Returns a pointer to the byte located, or NULL.
+*/
 
 #include "../libft.h"
 

@@ -6,9 +6,13 @@
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/04 16:30:46 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/09 03:51:46 by Niko             ###   ########.fr       */
+/*   Updated: 2016/11/10 14:42:08 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Applies the function f to each character of s.
+*/
 
 #include "../libft.h"
 

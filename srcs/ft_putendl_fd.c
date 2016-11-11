@@ -6,9 +6,13 @@
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/04 20:36:25 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/04 20:37:43 by Niko             ###   ########.fr       */
+/*   Updated: 2016/11/10 16:07:51 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Outputs s followed by a new line to the file descriptor fd.
+*/
 
 #include "../libft.h"
 

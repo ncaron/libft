@@ -6,9 +6,16 @@
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/05 01:53:29 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/09 20:13:21 by ncaron           ###   ########.fr       */
+/*   Updated: 2016/11/10 16:26:24 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Allocates and returns a fresh substring from s.
+** The substring starts at start and is of len characters long.
+** If start and len does not refer to a valid string, the behavior is undefined.
+** If allocation fails, returns NULL.
+*/
 
 #include "../libft.h"
 

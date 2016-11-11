@@ -6,9 +6,14 @@
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/04 14:20:55 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/04 14:25:08 by Niko             ###   ########.fr       */
+/*   Updated: 2016/11/10 16:24:50 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Returns 1 if c is whitespace.
+** Returns 0 if c is not whitespace.
+*/
 
 #include "../libft.h"
 

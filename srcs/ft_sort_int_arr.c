@@ -6,9 +6,13 @@
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/07 20:59:52 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/07 21:15:06 by Niko             ###   ########.fr       */
+/*   Updated: 2016/11/10 16:25:11 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Sorts an array of ints in ascending order.
+*/
 
 #include "../libft.h"
 

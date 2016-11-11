@@ -6,9 +6,14 @@
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/04 14:14:26 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/08 14:12:04 by Niko             ###   ########.fr       */
+/*   Updated: 2016/11/10 14:31:35 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Converts the initial part of the string to an int, removing any leading
+** whitespaces and returns the result.
+*/
 
 #include "../libft.h"
 

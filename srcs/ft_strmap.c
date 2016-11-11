@@ -6,9 +6,14 @@
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/04 16:53:30 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/09 20:12:51 by ncaron           ###   ########.fr       */
+/*   Updated: 2016/11/10 14:44:51 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Applies the function f to each character of s to create a new string.
+** Returns the string created.
+*/
 
 #include "../libft.h"
 

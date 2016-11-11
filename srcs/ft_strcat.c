@@ -6,9 +6,17 @@
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/02 23:42:45 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/07 20:00:15 by Niko             ###   ########.fr       */
+/*   Updated: 2016/11/10 14:12:27 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Appends a copy of the null-terminated string s1 to the end of the
+** null-terminated string s1, then add a terminating character.
+** s1 must have sufficient space to hold the result.
+** Undefined behavior of the strings overlap.
+** Returns a pointer to s1.
+*/
 
 #include "../libft.h"
 

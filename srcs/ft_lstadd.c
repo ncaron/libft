@@ -6,9 +6,13 @@
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/07 15:44:57 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/07 15:56:04 by Niko             ###   ########.fr       */
+/*   Updated: 2016/11/10 16:21:53 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Adds the element new at the beginning of the list.
+*/
 
 #include "../libft.h"
 

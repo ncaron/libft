@@ -6,9 +6,15 @@
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/06 13:01:52 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/06 15:42:54 by Niko             ###   ########.fr       */
+/*   Updated: 2016/11/10 14:17:22 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Appends the null-terminated string src to the end of dst.
+** Appends at most size - ft_strlen(dst) - 1 bytes. Terminating the result.
+** Returns the total length of the string they tried to create.
+*/
 
 #include "../libft.h"
 

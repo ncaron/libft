@@ -6,9 +6,15 @@
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/03 20:05:17 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/07 20:11:28 by Niko             ###   ########.fr       */
+/*   Updated: 2016/11/10 13:59:09 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Copies n bytes from memory area src to memory area dst.
+** If dst and src overlap, behavior is undefined.
+** Returns the original value of dst.
+*/
 
 #include "../libft.h"
 

@@ -6,9 +6,16 @@
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/07 16:11:21 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/07 19:39:41 by Niko             ###   ########.fr       */
+/*   Updated: 2016/11/10 16:23:31 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Applies of function f to each link and creates a new list using the result
+** of the successive applications of f.
+** Returns the new list.
+** If allocation fails, returns NULL.
+*/
 
 #include "../libft.h"
 

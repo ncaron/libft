@@ -6,9 +6,14 @@
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/05 18:37:03 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/09 21:28:41 by ncaron           ###   ########.fr       */
+/*   Updated: 2016/11/10 16:04:34 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Allocates and returns a new string representing n.
+** If allocation fails, returns NULL.
+*/
 
 #include "../libft.h"
 

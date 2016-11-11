@@ -6,9 +6,14 @@
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/02 21:33:48 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/02 21:34:16 by Niko             ###   ########.fr       */
+/*   Updated: 2016/11/10 14:34:21 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Returns 1 if c is part of the ascii table.
+** Returns 0 if c is not part of the ascii table.
+*/
 
 #include "../libft.h"
 

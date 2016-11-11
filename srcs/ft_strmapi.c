@@ -6,9 +6,15 @@
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/05 01:42:48 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/09 20:13:00 by ncaron           ###   ########.fr       */
+/*   Updated: 2016/11/10 14:45:36 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Applies the function f to each character of s to create a new string.
+** The index of each character is passed as the functiosn first argument.
+** Returns the new string.
+*/
 
 #include "../libft.h"
 

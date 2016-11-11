@@ -6,9 +6,15 @@
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/02 22:37:16 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/09 02:09:26 by Niko             ###   ########.fr       */
+/*   Updated: 2016/11/10 14:27:40 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Lexicographically compares the strings s1 and s2.
+** Returns an int, the difference between the first characters that are not the
+** same, or 0 if the strings match.
+*/
 
 #include "../libft.h"
 
