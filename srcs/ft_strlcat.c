@@ -6,7 +6,7 @@
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/06 13:01:52 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/10 14:17:22 by Niko             ###   ########.fr       */
+/*   Updated: 2016/11/13 04:15:02 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,20 +20,24 @@
 
 size_t	ft_strlcat(char *dst, const char *src, size_t size)
 {
-	size_t i;
-	size_t dst_len;
-	size_t src_len;
+	size_t		dst_size;
+	size_t		i;
+	char		*d;
+	const char	*s;
 
-	i = 0;
-	dst_len = ft_strlen(dst);
-	src_len = ft_strlen(src);
-	if (size < dst_len)
-		return (size + src_len);
-	while (src[i] && i < (size - dst_len - 1))
-	{
-		dst[dst_len + i] = src[i];
-		i++;
-	}
-	dst[dst_len + i] = '\0';
-	return (dst_len + src_len);
+	d = dst;
+	i = size;
+	while (i-- != 0 && *d)
+		d++;
+	dst_size = (size_t)(d - dst);
+	i = size - dst_size;
+	if (i <= 0)
+		return (size + ft_strlen(src));
+	s = src;
+	while (*s && i-- > 1)
+		*d++ = *s++;
+	while (*s)
+		s++;
+	*d = '\0';
+	return (dst_size + (size_t)(s - src));
 }
