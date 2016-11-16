@@ -6,7 +6,7 @@
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/02 19:54:32 by Niko              #+#    #+#             */
-/*   Updated: 2016/11/09 22:42:24 by Niko             ###   ########.fr       */
+/*   Updated: 2016/11/15 19:23:22 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -84,5 +84,6 @@ char			*ft_strtrim(char const *s);
 char			*ft_itoa(int n);
 char			*ft_strstr(const char *big, const char *little);
 char			*ft_strnstr(const char *big, const char *little, size_t len);
+char			*ft_itoa_base(int value, int base);
 char			**ft_strsplit(char const *s, char c);
 #endif
