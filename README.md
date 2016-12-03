@@ -70,3 +70,4 @@ Allowed functions for this project are: write, malloc and free.
 * ft_sort_int_arr.c
 * ft_strlenchr.c
 * ft_itoa_base.c
+* ft_countchr.c
