@@ -72,3 +72,4 @@ Allowed functions for this project are: write, malloc and free.
 * ft_itoa_base.c
 * ft_countchr.c
 * ft_int_sqrt.c
+* ft_replace_chr.c
