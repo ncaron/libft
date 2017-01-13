@@ -1,25 +1,30 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_abs.c                                           :+:      :+:    :+:   */
+/*   ft_arrdel.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: Niko <niko.caron90@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/12/21 19:34:11 by Niko              #+#    #+#             */
-/*   Updated: 2017/01/12 16:35:34 by Niko             ###   ########.fr       */
+/*   Created: 2017/01/12 16:21:49 by Niko              #+#    #+#             */
+/*   Updated: 2017/01/12 16:32:10 by Niko             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 /*
-** Returns the absolute value of a number.
+** Takes in an array of strings and frees everything.
 */
 
 #include "../libft.h"
 
-int	ft_abs(int n)
+void	ft_arrdel(char **s)
 {
-	if (n < 0)
-		return (n * -1);
-	else
-		return (n);
+	int i;
+
+	i = 0;
+	while (s[i])
+	{
+		ft_strdel(&s[i]);
+		i++;
+	}
+	free(s);
 }

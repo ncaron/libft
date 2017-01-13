@@ -74,3 +74,4 @@ Allowed functions for this project are: write, malloc and free.
 * ft_int_sqrt.c
 * ft_replace_chr.c
 * ft_abs.c
+* ft_arrdel.c
